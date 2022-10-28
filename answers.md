@@ -2,7 +2,7 @@
 
 - Who are you? What do you like building?
 
-  ##### I am a Full Stack developer.I like building dashboards using React
+  ##### I am a Full Stack developer.I like building dashboards using React and create API.
 
 - Do you own a PC and have a good internet
   connection? Let's hear those specs 💪!
@@ -53,14 +53,14 @@
 
 ## Task
 
-- [ ] - Find the longest word in a string. - Given `The quick brown fox jumped over the lazy dog` is the input to your function, it should return `jumped`.
+- [x] - Find the longest word in a string. - Given `The quick brown fox jumped over the lazy dog` is the input to your function, it should return `jumped`.
 
-- [ ] - Repeat a string `n` times. - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
+- [x] - Repeat a string `n` times. - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
 
-- [ ] -Remove duplicates in an array - If `[1, 20, 3, 1, 3, 3]` is the input to your
+- [x] -Remove duplicates in an array - If `[1, 20, 3, 1, 3, 3]` is the input to your
       function, it should return `[1, 20, 3]`
 
-- [ ] - Remove falsy values - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
+- [x] - Remove falsy values - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
 
-- [ ] - Truncate a string - If `'Absolute victory'` and `3` are the inputs to
+- [x] - Truncate a string - If `'Absolute victory'` and `3` are the inputs to
     your function, it should return `Abs...`
