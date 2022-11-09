@@ -1,0 +1,10 @@
+-Im Mohammed Shahim
+-I have PC with good internet connection
+-My linkedIn https://www.linkedin.com/in/mohammedshahim/
+-Im strong in Javascript
+-Using tech Node.js, MongoDB, Express.js, VS Code
+-My lap is macbook pro so its running os is macOS
+-Im using VS code to run my code
+-Im intrested in back-end programming.
+-Im love AI and ML but i don't know it deeply
+-Now iam feeding and developing skill in React native
