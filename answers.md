@@ -66,7 +66,7 @@ removeFalsyValues([42, "everything", "", 2, false, "everything", ""]);
 
 5. const truncate = (str, n) => {
    let newString = str.substring(0, n);
-   return console.log(newString);
+   return console.log(newString + "...");
    };
 
 truncate("Absolute victory", 3);
