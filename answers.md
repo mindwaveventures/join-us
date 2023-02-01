@@ -1,6 +1,6 @@
 My answers to the questions:
 - Who are you? What do you like building?
-Ans: I am a software programmer. I like to build web applications.
+-Ans: I am a software programmer. I like to build web applications.
 
 - Do you own a PC and have a good internet connection? Let's hear those specs !
 Ans: I have an i5, 8GB RAM Windows PC, and 500Mbps Internet.
