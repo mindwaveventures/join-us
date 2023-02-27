@@ -1,0 +1,46 @@
+1. Who are you? What do you like building?
+
+I am Nithya full stack developer. I would like to building for nodejs,react js and php.
+
+
+
+2.  Do you own a PC and have a good internet connection?
+
+Yes, I have own pc and good internet setup
+
+
+3. Your stackoverflow, linkedin, personal site.
+
+linkedin - https://www.linkedin.com/in/nithya-palani-9b766a24a/
+personal site - https://www.elephantintheboardroom.com.au/, https://secupohl.com/,  https://dwww.examinatr.com/, https://business.examinatr.com/, https://api.secupohl.com/
+https://app.institut4safety.com/,https://groundforce.cloud/,https://www.allthingshospitality.com.au/,https://shop.secupohl.com/
+
+4. What programming languages have you messed around with?
+
+Node JS
+React JS
+PHP
+Laravel
+Codeigniter
+Javascript
+Jquery
+
+5. What sort of tooling is on your machine?
+
+1. What OS do you run? - window
+2. What editor/IDE do you use? - VisualCode, PHPstorm
+3. Programming languages, compilers, runtimes - VS compiler
+
+6. Are you more into front-end or back-end? (If you're
+into web development)
+ I am working both end. I more comfortable with backend.
+
+7. Are you interested in AI/ML, Systems Programming
+or anything outside your current domain.
+
+I interested with AI and also work other domain
+
+8. What are you learning now?
+
+Currently I learning angular js
+
