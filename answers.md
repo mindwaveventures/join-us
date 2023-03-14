@@ -6,8 +6,14 @@ I’m Maria Sathish. I worked as a Full Stack Web Developer at Kaaylabs.
 LinkedIn [Click Here](https://www.linkedin.com/in/maria-sathish-31677410b)
 
 ## Programming language
-Java Script
-Java
+<ul>
+    <li>
+        Java Script
+    </li>
+    <li>
+        Java
+    </li>
+</ul>
 
 ## Tooling
 <ul>
