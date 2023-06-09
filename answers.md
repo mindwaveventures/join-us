@@ -6,9 +6,8 @@
   connection? Let's hear those specs 💪!
   - Yes I have one but it's not in good condition now, planning to get a new one this year but my current spec is,
     - HP Notebook, windows 10 OS, 512GB HDD, 4GB RAM,
-- Your stackoverflow, linkedin, personal site.
+- Your stackoverflow, linkedin, personal site.  Anything you'd want us to see.
   - linkedin - [Manoj Prabhakar](https://www.linkedin.com/in/manoj-prabhakar-ba6a47121/)
-    Anything you'd want us to see.
 - What programming languages have you messed around with?
   - JS (build a carrer out of this)
   - C, C++ (learned in college days which helps me to start programming)
