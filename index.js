@@ -31,8 +31,8 @@ function removeDuplicates() {
     });
     // var uniqueArray = [...new Set(FinalArray)];
 
-   const uniqueFilter = FinalArray.filter((each, index, array) => {
-         return index === array.indexOf(each)
+    const uniqueFilter = FinalArray.filter((each, index, array) => {
+        return index === array.indexOf(each)
     })
 
     const finalString = uniqueFilter.toString()
