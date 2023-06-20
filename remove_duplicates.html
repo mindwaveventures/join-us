@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Remove Duplicates</title>
+  <link rel="stylesheet" href="remove_duplicates.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Remove Duplicates in Array</h1>
+    <label for="inputArray">Enter an array:</label>
+    <input type="text" id="inputArray" placeholder="e.g., 1, 20, 3, 1, 3, 3" oninput="validateInput(event)"/>
+    <button onclick="removeDuplicates()">Remove Duplicates</button>
+    <ul id="output"></ul>
+    <p id="error-message" class="error-message"></p>
+    <button class="back-button" onclick="goToSidebarPage()">Back</button>
+  </div>
+</body>
+</html>

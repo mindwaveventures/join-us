@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Truncate a String</title>
+  <link rel="stylesheet" href="repeat_string_page.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Truncate a String</h1>
+    <label for="inputString">Enter a sentence:</label>
+    <br>
+        <textarea id="inputString" rows="4" cols="20" placeholder="Enter a string"></textarea>
+    <br>
+    <label for="repeatCount">Enter Truncate value:</label>
+    <input type="number" id="repeatCount" placeholder="Enter Truncate value" />
+    <button onclick="truncateValue()">Truncate a String</button>
+    <p>Truncated string:</p><p id="output"></p>
+    <button class="back-button" onclick="goToSidebarPage()">Back</button>
+  </div>
+</body>
+</html>
