@@ -1,3 +1,5 @@
+
+
 const longeststring =(string)=>{
 
     const word = string.split(' ');
@@ -16,3 +18,15 @@ const longestWord = longeststring(inputString);
 
 
 console.log(longestWord);
+
+const repeatString = (string,n)=>{
+return string.repeat(n)
+}
+
+const repeatStrings = 'abc';
+const repeatStr = repeatString(repeatStrings,3)
+console.log(repeatStr);
+
+
+
+
