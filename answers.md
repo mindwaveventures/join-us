@@ -132,8 +132,22 @@ console.log(removefalsyvalues(input));
 ```
 
 - Truncate a string
+
   - If `'Absolute victory'` and `3` are the inputs to
     your function, it should return `Abs...`
+
+        ```
+        const truncatestring =(input, truncateValue)=> {
+
+    if (input.length > truncateValue) {
+    return input.slice(0, truncateValue) + '...';
+    }
+    return input;
+    }
+    var input = 'Absolute victory';
+    var truncateValue = 3;
+    console.log(truncatestring(input, truncateValue));  
+     ````
 
 ## Notes
 
