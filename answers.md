@@ -122,6 +122,15 @@ console.log(removeuplicatevalues(input));
 
   - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
 
+```
+const removefalsyvalues=(input)=> {
+  return input.filter(Boolean);
+}
+var input = [42, "everything", "", 2, false, "everything"];
+console.log(removefalsyvalues(input));
+
+```
+
 - Truncate a string
   - If `'Absolute victory'` and `3` are the inputs to
     your function, it should return `Abs...`
