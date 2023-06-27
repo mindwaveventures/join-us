@@ -10,7 +10,7 @@ called `answers.md`. And yes! our humor is dry 🏜
 ```
 I'm Manikanda Prabhu from chennai,working as a full stack developer in ocean softwares,chennai and
  I did my Post Graduation in Anna University and like to build softwares like e-commerce and business softwares in
- MERN stcak.
+ MERN stack.
 
 ```
 
@@ -18,7 +18,7 @@ I'm Manikanda Prabhu from chennai,working as a full stack developer in ocean sof
   connection? Let's hear those specs 💪!
   ```
   Yes,I own a PC and also have a good internet connection.
-  I have Dell with i5 7th Generation and 8GB RAM and 512 SSD
+  I have Dell laptop with i5 7th Generation and 8GB RAM and 512 SSD
   ```
 - Your stackoverflow, linkedin, personal site.
   Anything you'd want us to see.
@@ -52,7 +52,7 @@ I'm Manikanda Prabhu from chennai,working as a full stack developer in ocean sof
 - Are you interested in AI/ML, Systems Programming
   or anything outside your current domain.
   ```
-  Yes,I'm interested
+  Yes,I'm interested in AI/ML
   ```
 - What are you learning now?
 
@@ -69,6 +69,23 @@ get extra 🍪
 - Find the longest word in a string.
 
   - Given `The quick brown fox jumped over the lazy dog` is the input to your function, it should return `jumped`.
+
+```
+const findthelongestword=(input)=> {
+  var words = input.split(' ');
+  var longestword = '';
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].length > longestword.length) {
+      longestword = words[i];
+    }
+  }
+  return longestword;
+}
+
+var input = 'manikanda prabhu';
+console.log(findthelongestword(input));
+
+```
 
 - Repeat a string `n` times.
 
