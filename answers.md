@@ -10,7 +10,7 @@ called `answers.md`. And yes! our humor is dry 🏜
 ```
 I'm Manikanda Prabhu from chennai,working as a full stack developer in ocean softwares,chennai and
  I did my Post Graduation in Anna University and like to build softwares like e-commerce and business softwares in
- MERN stack.
+ MERN stcak.
 
 ```
 
