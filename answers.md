@@ -91,6 +91,17 @@ console.log(findthelongestword(input));
 
   - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
 
+```
+const getrepeatstring=(input, repeatvalue)=> {
+  return input.repeat(repeatvalue);
+}
+
+var input = 'asdf';
+var repeatvalue = 4;
+console.log(getrepeatstring(input, repeatvalue));
+
+```
+
 - Remove duplicates in an array
 
   - If `[1, 20, 3, 1, 3, 3]` is the input to your
