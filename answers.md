@@ -107,6 +107,17 @@ console.log(getrepeatstring(input, repeatvalue));
   - If `[1, 20, 3, 1, 3, 3]` is the input to your
     function, it should return `[1, 20, 3]`
 
+```
+const removeuplicatevalues=(input)=> {
+  var values = [...new Set(input)];
+  return values;
+}
+
+var input = [1,1,2,2,3,3,4,4,4];
+console.log(removeuplicatevalues(input));
+
+```
+
 - Remove falsy values
 
   - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
