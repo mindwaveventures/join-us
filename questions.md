@@ -96,6 +96,27 @@ console.log(repeatedString);
   - If `[1, 20, 3, 1, 3, 3]` is the input to your
   function, it should return `[1, 20, 3]`
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array = [1, 20, 3, 1, 3, 3];
+const uniqueArray = [...new Set(array)];
+
+console.log(uniqueArray);
+
+    </script>
+</body>
+</html>
+
+
+
 - Remove falsy values
   - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
 
