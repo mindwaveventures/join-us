@@ -30,6 +30,42 @@ get extra 🍪
 - Find the longest word in a string.
   - Given `The quick brown fox jumped over the lazy dog` is the input to your function, it should return `jumped`.
 
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      function findLongestWord(string) {
+  const words = string.split(' ');
+  let longestWord = '';
+
+  words.forEach((word) => {
+    if (word.length > longestWord.length) {
+      longestWord = word;
+    }
+  });
+
+  return longestWord;
+}
+
+// Example usage
+const inputString = 'The quick brown fox jumped over the lazy dog';
+const longestWord = findLongestWord(inputString);
+console.log('Longest word:', longestWord);
+
+    </script>
+
+</body>
+</html>
+
+
+
 - Repeat a string `n` times.
   - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
 
