@@ -69,6 +69,29 @@ console.log('Longest word:', longestWord);
 - Repeat a string `n` times.
   - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const stringToRepeat = 'abc';
+const repeatCount = 3;
+const repeatedString = stringToRepeat.repeat(repeatCount);
+
+console.log(repeatedString);
+
+    </script>
+</body>
+</html>
+
+
+
+
 - Remove duplicates in an array
   - If `[1, 20, 3, 1, 3, 3]` is the input to your
   function, it should return `[1, 20, 3]`
