@@ -120,6 +120,27 @@ console.log(uniqueArray);
 - Remove falsy values
   - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array = [42, "everything", "", 2, false, "everything"];
+
+const filteredArray = array.filter(Boolean);
+
+console.log(filteredArray);
+
+    </script>
+</body>
+</html>
+
+
 - Truncate a string
   - If `'Absolute victory'` and `3` are the inputs to
   your function, it should return `Abs...`
