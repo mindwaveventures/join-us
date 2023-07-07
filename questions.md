@@ -145,6 +145,33 @@ console.log(filteredArray);
   - If `'Absolute victory'` and `3` are the inputs to
   your function, it should return `Abs...`
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const truncateString = (str, maxLength) => {
+  if (str.length > maxLength) {
+    return str.slice(0, maxLength) + '...';
+  }
+  return str;
+};
+
+const originalString = 'Absolute victory';
+const truncatedString = truncateString(originalString, 3);
+
+console.log(truncatedString);
+
+    </script>
+</body>
+</html>
+
+
 ## Notes
 
 - We look for style and patterns when reviewing submissions.
