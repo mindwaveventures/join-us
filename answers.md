@@ -53,7 +53,7 @@ console.log(truncateString('Absolute victory', 3)) // Ans:- Abs...
 - **Who are you? What do you like building?**
   
     I'm Anparasan. Basically from Thoothukudi.
-    I'm working as a Fullstack web developer in Openturf.
+    I'm working as a `Fullstack web developer` in [Openturf](https://www.openturf.in/).
     I have well knowledgeable and capable of both Front-end and Backend
 
     ***Frontend:***
@@ -95,7 +95,7 @@ console.log(truncateString('Absolute victory', 3)) // Ans:- Abs...
     - **What OS do you run?**
 
         I'm currently using Windows.
-        and have experience with Mac book and Linux (Ubuntu).
+        and have experience with Macbook and Linux (Ubuntu).
 
     - **What editor/IDE do you use?**
 
@@ -111,4 +111,4 @@ console.log(truncateString('Absolute victory', 3)) // Ans:- Abs...
 
 - **What are you learning now?**
 
-    I'm currently learning typescript and next.js
+    I'm currently learning [typescript](https://www.typescriptlang.org/) and [next.js](https://nextjs.org/)
