@@ -1,6 +1,6 @@
 Hi, Thank you for giving me a wonderful opportunity to explore my skills with these assigned tasks. Hereby I have attached my answers below.
 
-1.  Find the longest word in a string.
+**1.  Find the longest word in a string.***
 ```sh
 function findLongestWord(str = '') {
     str = str?.trim()
@@ -20,25 +20,25 @@ const sentence = 'The quick brown fox jumped over the lazy dog'
 console.log(findLongestWord(sentence)) // Ans:- jumped
 ```
 
-2.  Repeat a string n times.
+**2.  Repeat a string n times.**
 ```sh
 const repeatString = (str, n = 1) => str ? str.repeat(n) : 'Please provide a string!';
 
 console.log(repeatString("abc", 3)) // Ans:- abcabcabc
 ```
-3.  Remove duplicates in an array
+**3.  Remove duplicates in an array**
 ```sh
 const removeDuplicates = (Arr = []) => [...new Set(Arr)]
 
 console.log(removeDuplicates([1, 20, 3, 1, 3, 3])) // Ans:- [ 1, 20, 3 ]
 ```
-4.  Remove falsy values
+**4.  Remove falsy values**
 ```sh
 const removeFalsyValues = (arr = []) => arr.filter(val => val);
 
 console.log(removeFalsyValues([42, "everything", "", 2, false, "everything"])) // Ans:- [ 42, 'everything', 2, 'everything' ]
 ```
-5.  Truncate a string
+**5.  Truncate a string**
 ```sh
 function truncateString(str = '', n = str.length) {
     if (str.length === n) return str
