@@ -48,24 +48,67 @@ function truncateString(str = '', n = str.length) {
 console.log(truncateString('Absolute victory', 3)) // Ans:- Abs...
 ```
 
-- Who are you? What do you like building?
+## About me
 
-- Do you own a PC and have a good internet connection? Let's hear those specs 💪!
-    
-- Your stackoverflow, linkedin, personal site. Anything you'd want us to see?
+- **Who are you? What do you like building?**
+  
+    I'm Anparasan. Basically from Thoothukudi.
+    I'm working as a Fullstack web developer in Openturf.
+    I have well knowledgeable and capable of both Front-end and Backend
 
-- What programming languages have you messed around with?
+    ***Frontend:***
+      ReactJs, Ant Design, material UI, Windmill React UI, Bootstrap, TailwindCSS, Redux, React-query, Javascript, HTML, CSS.
 
-- What sort of tooling is on your machine?
+    ***Backend:***
+      NodeJs, ExpressJs, Sequelize, REST APIs.
 
-- Programming languages, compilers, runtimes, etc.
+    ***Databases:***
+      MongoDB, PostgreSQL.
 
-- What OS do you run?
+    ***Deployment:***
+      Nginx, vercel, gh-pages, ext.,
 
-- What editor/IDE do you use?
+    I always like to build web applications, websites.
 
-- Are you more into front-end or back-end? (If you're into web development).
+- **Do you own a PC and have a good internet connection? Let's hear those specs 💪!**
 
-- Are you interested in AI/ML, Systems Programming, or anything outside your current domain?
+    I'm using my current company laptop.
+    I have good internet connectivity up to 60 Mbps of broadband service.
 
-- What are you learning now? 
+- **Your stackoverflow, linkedin, personal site. Anything you'd want us to see?**
+
+    - https://www.linkedin.com/in/anparasan-t-52a954219/
+    - https://github.com/anparasan3
+
+- **What programming languages have you messed around with?**
+
+    I'm specifically handling my job activities with Javascript based. and I have basic knowledge of - Python - C - shell script
+
+- **What sort of tooling is on your machine?**
+
+    I'm using Visual Studio code to handle all sorts of code. Along with that, I'm using Postman for API testing. MongoDB and PostgreSQL for database management. Finally, using GIT for repository code management.
+
+    - **Programming languages, compilers, runtimes, etc.**
+
+        I mostly used to handle and compile my code with ES Lint extension which is available on VS code;
+
+    - **What OS do you run?**
+
+        I'm currently using Windows.
+        and have experience with Mac book and Linux (Ubuntu).
+
+    - **What editor/IDE do you use?**
+
+        Visual Studio Code IDE
+
+- **Are you more into front-end or back-end? (If you're into web development).**
+
+    I'm well-specialized in both (front-end and backend) development.
+
+- **Are you interested in AI/ML, Systems Programming, or anything outside your current domain?**
+
+    Yes. I'm interested in learning about AI/ML. I'm also interested in systems programming.
+
+- **What are you learning now?**
+
+    I'm currently learning typescript and next.js
