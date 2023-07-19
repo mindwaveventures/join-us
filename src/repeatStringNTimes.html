@@ -2,15 +2,55 @@
 <html>
 <head>
   <title>String Repeater</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    #inputForm {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .inputLabel {
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    #resultContainer {
+      font-size: 18px;
+    }
+
+    input[type="submit"] {
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
   <h1>String Repeater</h1>
   <form id="inputForm">
-    <label for="inputString">Enter the string you want to repeat:</label>
-    <input type="text" id="inputString" required><br>
+    <label class="inputLabel" for="inputString">Enter the string you want to repeat</label>
+    <input type="text" id="inputString" required>
     
-    <label for="repeatCount">Enter the number of times to repeat the string:</label>
-    <input type="number" id="repeatCount" required><br>
+    <label class="inputLabel" for="repeatCount">Enter the number of times to repeat the string</label>
+    <input type="number" id="repeatCount" required>
     
     <input type="submit" value="Repeat">
   </form>
@@ -47,4 +87,3 @@
   </script>
 </body>
 </html>
-
