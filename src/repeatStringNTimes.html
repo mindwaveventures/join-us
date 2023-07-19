@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>String Repeater</title>
+</head>
+<body>
+  <h1>String Repeater</h1>
+  <form id="inputForm">
+    <label for="inputString">Enter the string you want to repeat:</label>
+    <input type="text" id="inputString" required><br>
+    
+    <label for="repeatCount">Enter the number of times to repeat the string:</label>
+    <input type="number" id="repeatCount" required><br>
+    
+    <input type="submit" value="Repeat">
+  </form>
+
+  <div id="resultContainer"></div>
+
+  <script>
+    function repeatStringNtimes(str, count) {
+      var data = "";
+
+      for (var each = 0; each < count; each++) {
+        data += str;
+      }
+
+      return data;
+    }
+
+    const form = document.getElementById('inputForm');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent form submission to avoid page reload
+
+      const inputString = document.getElementById('inputString').value;
+      const repeatCount = parseInt(document.getElementById('repeatCount').value);
+
+      if (!isNaN(repeatCount) && repeatCount > 0) {
+        const result = repeatStringNtimes(inputString, repeatCount);
+
+        const resultContainer = document.getElementById('resultContainer');
+        resultContainer.innerText = "Result: " + result;
+      } else {
+        alert("Invalid input. Please enter a valid positive number for repetition.");
+      }
+    });
+  </script>
+</body>
+</html>
+
