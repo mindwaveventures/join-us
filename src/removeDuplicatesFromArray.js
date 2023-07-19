@@ -11,3 +11,7 @@ function removeDuplicates(array) {
   
   return uniqueElements;
 }
+
+var inputArray = [1, 20, 3, 1, 3, 3];
+var resultArray = removeDuplicates(inputArray);
+console.log(resultArray); // Output: [1, 20, 3]
