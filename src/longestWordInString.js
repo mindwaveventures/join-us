@@ -19,3 +19,7 @@ function findLongestWordInString(str) {
 
   return longestWord;
 }
+
+const inputString = "The quick brown fox jumped over the lazy dog";
+const longestWord = findLongestWordInString(inputString);
+console.log(longestWord);
