@@ -142,6 +142,25 @@ const  inputArr  = [42, "everything", "", 2, false, "everything"];
 const  result  =  removeFalseValueArr(inputArr);
 console.log(result);`
 
+### TASK 5
+- Truncate a string
+    * If  `'Absolute victory'`  and  `3`  are the inputs to your function, it should return  `Abs...`
+    
+`function  truncateStr(strValue, maxCount) {
+if (strValue.length  >  maxCount) {
+let  outputStr  =  "";
+for (let  i  =  0; i  <  maxCount; i++) {
+outputStr  =  outputStr  +  strValue[i];
+}
+return  outputStr  +  "...";
+} else {
+return  strValue;
+}
+}
+const  inputStr  =  "Absolute victory";
+const  resultStr  =  truncateStr(inputStr, 3);
+console.log(resultStr);`
+
 
 
 
