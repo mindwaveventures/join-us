@@ -58,7 +58,7 @@ My experience developing dynamic front end as UI an javascript, react and databa
     * Azure AWS
     
 
-## TASK 1
+### TASK 1
  
 
 - Find the longest word in a string.
@@ -82,7 +82,7 @@ const inputTxt = "The quick brown fox jumped over the lazy dog";
 const findLongestStr = findLongestWord(inputTxt);
 console.log(findLongestStr); `
 
-## TASK 2
+### TASK 2
 - Repeat a string `n` times.
     * If  `abc`  and  `3`  are the arguments to your function, it shoudl return  `abcabcabc`
     
@@ -101,7 +101,7 @@ const  count  =  3;
 const  resultString  =  calculateString(inputString, count);
 console.log(resultString); `
 
-## TASK 3
+### TASK 3
 - Remove duplicates in an array
     * If  `[1, 20, 3, 1, 3, 3]`  is the input to your function, it should return  `[1, 20, 3]`
   
@@ -118,6 +118,32 @@ return  originalList;
 const  arrDuplicate  = [1, 20, 3, 1, 3, 3];
 const  result  =  removeDuplicateArr(arrDuplicate);
 console.log(result);`
+
+### TASK 4
+- Remove falsy values
+    * If  `[42, "everything", "", 2, false, "everything"]`  is the input to your function, it should return  `[42, "everything", 2, "everything"]`
+   
+`function  removeFalseValueArr(inputArr)
+{
+let  resultArr  = [];
+if(inputArr.length  !==  0) {
+for(let  i  =  0; i  <  inputArr.length; i++)
+{
+let  curItem  =  inputArr[i];
+if(curItem)
+resultArr.push(curItem);
+}
+return  resultArr;
+}
+else
+return  "The input Array is Empty";
+}
+const  inputArr  = [42, "everything", "", 2, false, "everything"];
+const  result  =  removeFalseValueArr(inputArr);
+console.log(result);`
+
+
+
 
 
 
