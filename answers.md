@@ -101,3 +101,23 @@ const  count  =  3;
 const  resultString  =  calculateString(inputString, count);
 console.log(resultString); `
 
+## TASK 3
+- Remove duplicates in an array
+    * If  `[1, 20, 3, 1, 3, 3]`  is the input to your function, it should return  `[1, 20, 3]`
+  
+`function  removeDuplicateArr(arrList) {
+let  originalList  = [];
+for (let  i  =  0; i  <  arrList.length; i++) {
+let  curValue  =  arrList[i];
+if (!originalList.includes(curValue)) {
+originalList.push(curValue);
+}
+}
+return  originalList;
+}
+const  arrDuplicate  = [1, 20, 3, 1, 3, 3];
+const  result  =  removeDuplicateArr(arrDuplicate);
+console.log(result);`
+
+
+
