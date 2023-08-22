@@ -6,6 +6,7 @@ called `answers.md`. And yes! our humor is dry 🏜
 ## Introductions
 
 - Who are you? What do you like building?
+
 - Do you own a PC and have a good internet
  connection? Let's hear those specs 💪!
 - Your stackoverflow, linkedin, personal site.
