@@ -1,20 +1,9 @@
-# Join Mediwave!
+# Note :
 
-We ❤️ git. So, why not introduce it
-into our hiring process.
+Hello recruiter,
 
-The process is straightforward.
+I have provided all the answers as requested. The only issue I faced was that the code indentation is not visible after saving the file or committing the changes. However, it's properly visible when we click on edit. I wanted to bring this to your attention. Additionally, I really appreciate this method of assessment using Git.
 
-1. Fork this repo!
-1. Read `questions.md`
-1. Raise a `PR` with your change.
-1. We look into your `PR` and definitely stalk your
-GH profile 😉
-1. We get back to you.
+Thank you for this wonderful opportunity.
 
-For questions or suggestions, feel free to raise an
-issue in this repo. If you're an email person, email
-away to <a href="mailto:mediwave@mindwaveventures.com">mediwave@mindwaveventures.com</a>
-
-
-[lighttrains](https://github.com/lightrainstech/join-us)'s hiring process inspired this. __Thank you! ❤️__
+> __வாழ்த்துகள்!__ 🙏
