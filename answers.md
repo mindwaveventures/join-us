@@ -85,3 +85,13 @@ function getRepeatedString(string, n) {
 
   return repeatingStr;
 }
+
+## Remove duplicate in an array
+
+function removeDuplicatesEle(input) {
+  if (!Array.isArray(input)) {
+    throw new Error("Input is not an array");
+  }
+
+  return [...new Set(input)];
+}
