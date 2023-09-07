@@ -51,6 +51,8 @@ I'm learning Backend Technologies, for some personal project requirements.
 
 ## Finding longest word
 
+## Finding longest word
+
 function findMaxWordLength(input) {
   const words = input.split(/\s+|[,.;?!'"-]+/);
   let longest = null;
@@ -65,3 +67,4 @@ function findMaxWordLength(input) {
 
   return longest || '';
 }
+
