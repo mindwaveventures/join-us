@@ -51,8 +51,6 @@ I'm learning Backend Technologies, for some personal project requirements.
 
 ## Finding longest word
 
-
-
 function findMaxWordLength(input) {
   const words = input.split(/\s+|[,.;?!'"-]+/);
   let longest = null;
@@ -68,3 +66,22 @@ function findMaxWordLength(input) {
   return longest || '';
 }
 
+## Repeat a String n times
+
+function getRepeatedString(string, n) {
+  if (typeof string !== "string" || typeof n !== "number" || isNaN(n) || !isFinite(n) || n < 0) {
+    throw new Error("Invalid input");
+  }
+
+  if (n === 0) {
+    return "";
+  }
+
+  let repeatingStr = "";
+
+  for (let i = 0; i < n; i++) {
+    repeatingStr += string;
+  }
+
+  return repeatingStr;
+}
