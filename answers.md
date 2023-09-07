@@ -49,7 +49,7 @@ I'm learning Backend Technologies, for some personal project requirements.
 
 # Codes
 
-## Finding longest word
+- Finding longest word
 
 function findMaxWordLength(input) {
   const words = input.split(/\s+|[,.;?!'"-]+/);
@@ -66,7 +66,7 @@ function findMaxWordLength(input) {
   return longest || '';
 }
 
-## Repeat a String n times
+- Repeat a String n times
 
 function getRepeatedString(string, n) {
   if (typeof string !== "string" || typeof n !== "number" || isNaN(n) || !isFinite(n) || n < 0) {
@@ -86,7 +86,7 @@ function getRepeatedString(string, n) {
   return repeatingStr;
 }
 
-## Remove duplicate in an array
+- Remove duplicate in an array
 
 function removeDuplicatesEle(input) {
   if (!Array.isArray(input)) {
@@ -94,4 +94,16 @@ function removeDuplicatesEle(input) {
   }
 
   return [...new Set(input)];
+}
+
+- Remove falsy value
+
+function removeFalsyValues(inputArray) {
+  return inputArray.filter(Boolean);
+}
+
+- Truncate a string
+
+function truncateString(inputString, maxLength) {
+  return inputString.length <= maxLength ? inputString : inputString.slice(0, maxLength) + '...';
 }
