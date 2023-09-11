@@ -1,6 +1,7 @@
 Introduction
 
 Who are you? What do you like building?
+
 I am Nigila, holding an M.Sc in Computer Science from Pondicherry University.  With over 3+ years of professional experience, I specialize as a full stack Magento Developer.  During my career, I have had the opportunity to with with multiple Magento projects and migrations as well as integration of Magento websites to React Native app.  And I have successfully launched and maintaned 5+ websites.  Apart from Magento, I have also shown my interest in other areas of web development including React Native, ReactJs, NodeJs, MongoDB,  Wordpress etc., I like to build user friendly websites, and optimizing the user experience and integrating latest technologies.
 
 Do you own a PC and have a good internet connection?
@@ -39,7 +40,7 @@ Technical Questions
 
 1. Find the longest word in a string.
 Php
-$string = "Actions speak louder than words.";
+```$string = "Actions speak louder than words.";
 
 function longestString($string) {
     //explode the given string space
@@ -62,7 +63,7 @@ function longestString($string) {
 
 echo longestString($string);
 
-Outputs: Actions
+Outputs: Actions```
 
 
 Javascript
