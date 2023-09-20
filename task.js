@@ -10,13 +10,12 @@ maxvalues="";
 for (let i = 0; i < words.length; i++) {
     if(maxlenth < words[i].length){
         maxlenth = words[i].length;
-     maxvalues = words[i];
+        maxvalues = words[i];
     }
 }
 console.log(maxvalues);
 
-
-
+ /* end Task */
 
 /*Repeat a string n times.
 If abc and 3 are the arguments to your function, it shoudl return abcabcabc */
@@ -26,7 +25,6 @@ function repeatvalues(str, n) {
   let rewritestring = repeatvalues("abc", 3);
   console.log(rewritestring); 
 /* end Task */
-
 
 /* 
 Remove duplicates in an array
