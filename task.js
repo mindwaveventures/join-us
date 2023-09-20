@@ -16,4 +16,36 @@ for (let i = 0; i < words.length; i++) {
 console.log(maxvalues);
 
 
+
+
+/*Repeat a string n times.
+If abc and 3 are the arguments to your function, it shoudl return abcabcabc */
+function repeatvalues(str, n) {
+    return str.repeat(n);
+  }
+  let rewritestring = repeatvalues("abc", 3);
+  console.log(rewritestring); 
+/* end Task */
+
+/* 
+Remove duplicates in an array
+If [1, 20, 3, 1, 3, 3] is the input to your function, it should return [1, 20, 3] 
+*/
+function deleteDuplicates(arr) {
+    let uniArray = [];
+    let valuejson = {};
+  
+    for (let i = 0; i < arr.length; i++) {
+      if (!seen[arr[i]]) {
+        uniArray.push(arr[i]);
+        valuejson[arr[i]] = true;
+      }
+    }
+  
+    return uniqueArray;
+  }
+  let values = [1, 20, 3, 1, 3, 3];
+  let result = deleteDuplicates(values);
+  console.log(result);
+
 /* end Task */
