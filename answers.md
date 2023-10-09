@@ -1,29 +1,29 @@
 ## Introductions
 
-Answer 1 - Who are you? What do you like building?         <!-- Am J.SIVASANKAR (MERN) Full stack developer -->
+Answer 1 - Who are you? What do you like building?          Am J.SIVASANKAR (MERN) Full stack developer 
 
-Answer 2- Do you own a PC and have a good internet        <!--Yes i own PC with 5G internet connection-->
+Answer 2- Do you own a PC and have a good internet        Yes i own PC with 5G internet connection
  connection? Let's hear those specs 💪!
 
-Answer 3- Your stackoverflow, linkedin, personal site.    <!-- Its My Portfolio please check it      https://gregorious-swan-077c44.netlify.app/  -->
+Answer 3- Your stackoverflow, linkedin, personal site.     Its My Portfolio please check it      https://gregorious-swan-077c44.netlify.app/  
 Anything you'd want us to see.                   
 
-Answer 4- What programming languages have you messed around with?   <!--Python-->
+Answer 4- What programming languages have you messed around with?   Python
 
 
-Answer 5 - Programming languages, compilers, runtimes etc              <!--am a Pure JAVASCRIPT DEVELOPER -->
+Answer 5 - Programming languages, compilers, runtimes etc              am a Pure JAVASCRIPT DEVELOPER 
 
-  - What OS do you run?          <!--Windows-->
+  - What OS do you run?          Windows
 
-  - What editor/IDE do you use?  <!--VS code-->
+  - What editor/IDE do you use?  VS code
 
 Answer 6- Are you more into front-end or back-end? (If you're
-into web development).        <!--Back-End (NodeJS-ExpressJS)-->
+into web development).        Back-End (NodeJS-ExpressJS)-->
 
 Answer 7- Are you interested in AI/ML, Systems Programming
-or anything outside your current domain.    <!--Always am excited learning New Techs so Definitely Yes-->
+or anything outside your current domain.    Always am excited learning New Techs so Definitely Yes
 
-Answer 8- What are you learning now?    <!--React Native-->
+Answer 8- What are you learning now?    React Native
 
 
 
