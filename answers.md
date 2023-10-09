@@ -38,88 +38,91 @@ Answer 8- What are you learning now?
 Coding Question - 1 
 
 - Find the longest word in a string.
-  - Given `The quick brown fox jumped over the lazy dog` is the input to your function, it should return `jumped`.
+  - Given "The quick brown fox jumped over the lazy dog" is the input to your function, it should return `jumped`.
 
- Coding Answers - 1:
+ - Coding Answers - 1:
 
-const givenString = `The quick brown fox jumped over the lazy dog`;
+ - const givenString = "The quick brown fox jumped over the lazy dog";
 
-function  longestWord(givenString) {
+ - function  longestWord(givenString) {
 
-  const enterWord = givenString.split(' ');
-          <!--Sort the enterWord by length in descending order-->
-  const sortedWord = enterWord.sort((a, b) => b.length - a.length);
-  return sortedWord[0];
-}
+ - const enterWord = givenString.split(' ');
 
-const answer1 = longestWord(givenString);
-console.log(answer1);
+- const sortedWord = enterWord.sort((a, b) => b.length - a.length);
+
+- return sortedWord[0];
+
+- }
+
+- const answer1 = longestWord(givenString);
+
+- console.log(answer1);
 
 
 
-Coding Question - 2
+- Coding Question - 2
 
 - Repeat a string `n` times.
   - If `abc` and `3` are the arguments to your function, it shoudl return `abcabcabc`
 
- Coding Answers - 2
+ - Coding Answers - 2
 
-const str = "abc";
-const n = 3;
+     - const str = "abc";
+     - const n = 3;
 
-  function repeatString(str, n) {
-  return str.repeat(n);
-}
+  - function repeatString(str, n) {
+  - return str.repeat(n);
+- }
 
-const answer2 = repeatString(str, n);
-console.log(answer2);
+- const answer2 = repeatString(str, n);
+- console.log(answer2);
 
-Coding Question - 3
+- Coding Question - 3
 - Remove duplicates in an array
   - If `[1, 20, 3, 1, 3, 3]` is the input to your
   function, it should return `[1, 20, 3]`
 
-Coding Answers - 3
+- Coding Answers - 3
 
-const givenArr = [1, 20, 3, 1, 3, 3];
+- const givenArr = [1, 20, 3, 1, 3, 3];
 
-function removeDuplicates(arr) {
-  return [...new Set(arr)];
-}
+- function removeDuplicates(arr) {
+ -  return [...new Set(arr)];
+- }
 
-const answer3 = removeDuplicates(givenArr);
-console.log(answer3); 
+- const answer3 = removeDuplicates(givenArr);
+- console.log(answer3); 
 
 
-Coding Question - 4
- Remove falsy values
+- Coding Question - 4
+ - Remove falsy values
   - If `[42, "everything", "", 2, false, "everything"]` is the input to your function, it should return `[42, "everything", 2, "everything"]`
 
-Coding Answers - 4
+- Coding Answers - 4
 
-const givenArr = [42, "everything", "", 2, false, "everything"];
+- const givenArr = [42, "everything", "", 2, false, "everything"];
 
-function removeFalsyValues(arr) {
-  return arr.filter(Boolean);
-}
+- function removeFalsyValues(arr) {
+  - return arr.filter(Boolean);
+- }
 
-const answer4 = removeFalsyValues(givenArr);
-console.log(answer4); 
+ - const answer4 = removeFalsyValues(givenArr);
+- console.log(answer4); 
 
-Coding Question - 5
+- Coding Question - 5
 
 - Truncate a string
   - If `'Absolute victory'` and `3` are the inputs to
   your function, it should return `Abs...`
 
-Coding Answers - 5
+- Coding Answers - 5
 
-const inputString = 'Absolute victory';
-const maxLength = 3;
+- const inputString = 'Absolute victory';
+- const maxLength = 3;
 
-function truncateString(str, maxLength) {
-  return str.length <= maxLength ? str : str.slice(0, maxLength) + '...';
-}
+- function truncateString(str, maxLength) {
+ -  return str.length <= maxLength ? str : str.slice(0, maxLength) + '...';
+  - }
 
-const answer5 = truncateString(inputString, maxLength);
-console.log(answer5); 
+ - const answer5 = truncateString(inputString, maxLength);
+  - console.log(answer5); 
