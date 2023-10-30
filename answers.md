@@ -159,3 +159,19 @@ const inputArray = [1, 20, 3, 1, 3, 3];
 const resultArray = removeDuplicates(inputArray);
 console.log(resultArray);
 ```
+
+**Question: 4**
+
+Remove falsy values
+
+**Answer:**
+
+```javascript
+function removeFalsyValues(arr) {
+  return arr.filter(Boolean);
+}
+
+const inputArray = [42, "everything", "", 2, false, "everything"];
+const resultArray = removeFalsyValues(inputArray);
+console.log(resultArray);
+```
