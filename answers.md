@@ -7,6 +7,7 @@ I'm MacMillon with 3 years of experience in the MERN stack. Recently, I've devel
 ### Do you own a PC and have a good internet connection? Let's hear those specs 💪!
 
 Yes, I own a PC with a good internet connection, here are the specs:
+
 - Processor: i3
 - RAM: 12GB
 - SSD: 250GB
@@ -21,6 +22,7 @@ You can find me on LinkedIn at [MacMillon's LinkedIn Profile](https://www.linked
 I've primarily worked with JavaScript.
 
 ### What sort of tooling is on your machine?
+
 #### Programming languages, compilers, runtimes, etc.
 
 I have several programming tools and languages on my machine, including Node.js, Java, and Python.
@@ -32,6 +34,7 @@ My PC runs on Windows, but I also have an Ubuntu distro through WSL and Linux ru
 #### What editor/IDE do you use?
 
 I use the following editors/IDEs:
+
 - Visual Studio Code
 - Eclipse
 - Atom
@@ -49,3 +52,30 @@ I'm very interested in AI/ML.
 
 Currently, I'm learning NextJS, GraphQL, and DevOps.
 
+## Hacked
+
+**Question:**
+
+Find the longest word in a string.
+
+**Answer:**
+
+```javascript
+function findLongestWord(str) {
+  const words = str.split(" ");
+  let longestWord = "";
+  let longestLength = 0;
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length > longestLength) {
+      longestWord = words[i];
+      longestLength = words[i].length;
+    }
+  }
+
+  return longestWord;
+}
+
+const inputString = "The quick brown fox jumped over the lazy dog";
+const longest = findLongestWord(inputString);
+console.log(longest);
+```
