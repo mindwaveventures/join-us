@@ -58,7 +58,7 @@ Currently, I'm learning NextJS, GraphQL, and DevOps.
 
 Find the longest word in a string.
 
-**Answer:**
+**Answer: 1**
 
 ```javascript
 function findLongestWord(str) {
@@ -78,4 +78,40 @@ function findLongestWord(str) {
 const inputString = "The quick brown fox jumped over the lazy dog";
 const longest = findLongestWord(inputString);
 console.log(longest);
+```
+
+**Question: 2**
+
+Repeat a string `n` times.
+
+**Answer:**
+
+- With inbuilt function
+
+```javascript
+function repeatString(str, n) {
+  return str.repeat(n);
+}
+
+const inputString = "abc";
+const repeatCount = 3;
+const repeatedString = repeatString(inputString, repeatCount);
+console.log(repeatedString);
+```
+
+- Without inbuilt function
+
+```javascript
+function repeatString(str, n) {
+  if (n <= 0) {
+    return "";
+  }
+
+  let repeatedString = "";
+  for (let i = 0; i < n; i++) {
+    repeatedString += str;
+  }
+
+  return repeatedString;
+}
 ```
