@@ -114,4 +114,48 @@ function repeatString(str, n) {
 
   return repeatedString;
 }
+const inputString = "abc";
+const repeatCount = 3;
+const repeatedString = repeatString(inputString, repeatCount);
+console.log(repeatedString);
+```
+
+**Question: 3**
+
+Remove duplicates in an array
+
+**Answer:**
+
+- With inbuilt function
+
+```javascript
+function removeDuplicates(arr) {
+  const uniqueSet = new Set(arr);
+  const uniqueArray = Array.from(uniqueSet);
+  return uniqueArray;
+}
+
+const inputArray = [1, 20, 3, 1, 3, 3];
+const resultArray = removeDuplicates(inputArray);
+console.log(resultArray);
+```
+
+- Without inbuilt function
+
+```javascript
+function removeDuplicates(arr) {
+  const uniqueArray = [];
+
+  for (let element of arr) {
+    if (!uniqueArray.includes(element)) {
+      uniqueArray.push(element);
+    }
+  }
+
+  return uniqueArray;
+}
+
+const inputArray = [1, 20, 3, 1, 3, 3];
+const resultArray = removeDuplicates(inputArray);
+console.log(resultArray);
 ```
