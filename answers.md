@@ -175,3 +175,24 @@ const inputArray = [42, "everything", "", 2, false, "everything"];
 const resultArray = removeFalsyValues(inputArray);
 console.log(resultArray);
 ```
+
+**Question: 5**
+
+Truncate a string
+
+**Answer:**
+
+```javascript
+function truncateString(str, num) {
+  if (str.length > num) {
+    return str.substring(0, num) + "...";
+  } else {
+    return str;
+  }
+}
+
+const inputString = "Absolute victory";
+const maxLength = 3;
+const truncatedString = truncateString(inputString, maxLength);
+console.log(truncatedString);
+```
