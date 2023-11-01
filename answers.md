@@ -1,25 +1,24 @@
 1. Who are you? What do you like building?
-   I am done my BE, CSE graduation and i have 3 yrs of experience in developement. In fullstack i have 1 year of experiance. Previous i was worked Epublishing and POS application based projects.
+   I am a passionate full stack developer with 3 years of experience. I love building seamless, user-friendly software solutions. Proficient in JavaScript, React, Node.js, and database MongoDB. I've successfully tackled challenges, collaborated with cross-functional teams, and continuously updated my skills. Excited about contributing to innovative projects and your company's success.
 2. Do you own a PC and have a good internet connection? Let's hear those specs 💪!
    I have Personal laptop with wifi internet
-3. Your stackoverflow, linkedin, personal site.
-   I dont have any account except linkedIn. Here is my link https://www.linkedin.com/in/saravanan-rk-657614259
-4. Anything you'd want us to see.
-   4.1. What programming languages have you messed around with?
-        I have some struggle on using node js while communicating front end to backend process
+3. Your stackoverflow, linkedin, personal site. Anything you'd want us to see.
+   I have currently maintain linkedIn account. Here is my link https://www.linkedin.com/in/saravanan-rk-657614259
+4. What programming languages have you messed around with?
+   I've had hands-on experience with a variety of programming languages. On the front-end, I've worked extensively with JavaScript and its framework React. For back-end development, I've used languages like Node.js. Additionally, I'm proficient in database query languages like MongoDB for managing data. My adaptability with different programming languages allows me to create comprehensive, end-to-end solutions. 
 5. What sort of tooling is on your machine?
    5.1. Programming languages, compilers, runtimes etc
         HTML, CSS, Javascript, React, Node, Express.js, MongoDB and online Codesandbox and javascript compiler
-  5.2. What OS do you run?
-       Windows 10
-  5.3. What editor/IDE do you use?
-       VS code and notepad++
+   5.2. What OS do you run?
+        Windows 10
+   5.3. What editor/IDE do you use?
+        VS code and notepad++
 6. Are you more into front-end or back-end? (If you're into web development).
    I am more in Frontend developement
 7. Are you interested in AI/ML, Systems Programming or anything outside your current domain.
    Yes, if possible to learn new technology i am intrested to learn for developement 
 8. What are you learning now?
-   Currently, i am practicing C# and ASP.NET at backend process for upcomming project requirement.
+   Currently, i am practicing python language.
 
 
 //Find the longest word in a string
